@@ -1,7 +1,12 @@
 public class Practice {
     public static void main(String[] args) {
-      DoubleList dl = new DoubleList();
+      DoubleList list = new DoubleList();
 
-      System.out.println(dl);
+      list.append(22);
+      list.append(7);
+      list.prepend(1);
+
+      System.out.println(list.getFirst());
+      System.out.println(list.getLast());
     }
 }
